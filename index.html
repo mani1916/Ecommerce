@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce.com</title>
+    <link rel="stylesheet" href="style.css">
+    
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<title></title>
+
+</head>
+<body>
+    <div class="top-nav-bar">
+        <div class="search-box">
+            <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+          <img src="download.png" alt="" class="logo">
+            <input type="text" class="form-control" placeholder="Search here">
+            <span class="input-group-text"><i class="fa fa-search"></i>
+               
+            </span>
+           
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href=""> <i class="fa fa-shopping-basket"></i> Cart</a></li>
+                <li><a href=""> <i class="fa fa-user-plus"></i>Signup</a></li>
+                <li><a href=""><i class="fa fa-sign-in" aria-hidden="true"></i> Log-in</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="header">
+        <div class="side-menu" id="side-menu">
+            <ul>
+            <li>On sale <i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>    
+            </li>
+            <li>Mobiles<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Computers<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Books<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Fitness<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Baby Care<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Magazines<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   
+            </li>
+            <li>Auto Accessories<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>MOvies & Music<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Videos & Games<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Home & Kitchen<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Furniture<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            <li>Grocery<i class="fa fa-angle-right"></i>
+                <ul>
+                    <li>Sub menu-1</li>
+                    <li>Sub menu-2</li>
+                    <li>Sub menu-3</li>
+                    <li>Sub menu-4</li>
+                </ul>   </li>
+            </ul>
+        </div>
+        <div class="slide-bar">
+            <div id="slide-bar" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="fashion (1).jpg" class="d-block w-100" alt="..." id="im">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="agri.jpg" class="d-block w-100" alt="..." id="im">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gadgets.jpg" class="d-block w-100" alt="..." id="im">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="gaming.jpg" class="d-block w-100" alt="..." id="im">
+                  </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#slide-bar" data-slide-to="0" class="active"></li>
+                    <li data-target="#slide-bar" data-slide-to="1"></li>
+                    <li data-target="#slide-bar" data-slide-to="2"></li>
+                    <li data-target="#slide-bar" data-slide-to="3"></li>
+                  </ol> 
+              </div>
+        </div>
+    </section>
+    <section class="featured">
+        <div class="container">
+            <div class="row" id="slideimage">
+                <div class="col-md-4">
+                    <img src="shoe.jpg" alt="" width="80%" id="pr">
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="watch.jpg" alt="" width="80%" height="100%" id="pr">
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="headphone.jpg" alt="" width="80%" id="pr">
+                </div>
+            </div>
+        </div>
+          
+    </section>
+    <section>
+        <div class="container">
+            <div class="title-box">
+                <h2>On Sale</h2>
+            </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="images/watch (2).jpg" alt="" width="80%">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="">
+                            <i class="fa fa-shopping-cart">
+                            </i> <p id="des">quick view </p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wishlist">
+                            <i class="fa fa-heart"></i> 
+                            <p id="des">Add to wishlist</p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-eye"></i> 
+                            <p id="des">Add to cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div id="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i></div>
+                        <h3>Smart Watch</h3>
+                        <h5>Rs.499  <span id="er">Rs.1500</span><br> <span>50% offer</span></h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="product-2.jpg" alt="" width="90%" height="204px">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="">
+                            <i class="fa fa-shopping-cart">
+                            </i> <p id="des">quick view </p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wishlist">
+                            <i class="fa fa-heart"></i> 
+                            <p id="des">Add to wishlist</p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-eye"></i> 
+                            <p id="des">Add to cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div id="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i></div>
+                        <h3>Leather Shoe</h3>
+                        <h5>Rs.899  <span id="er">Rs.1900</span><br> <span>50% offer</span></h5>
+                </div>
+            </div>
+            <!-- product 3 -->
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="product-3.jpg" alt="" width="70%" height="204px" id="im3">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="">
+                            <i class="fa fa-shopping-cart">
+                            </i> <p id="des">quick view </p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wishlist">
+                            <i class="fa fa-heart"></i> 
+                            <p id="des">Add to wishlist</p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-eye"></i> 
+                            <p id="des">Add to cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div id="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i></div>
+                        <h3>Leather Watch</h3>
+                        <h5>Rs.299  <span id="er">Rs.600</span><br> <span>50% offer</span></h5>
+                </div>
+            </div>
+            <!-- product-4 -->
+            <div class="col-md-3">
+                <div class="product-top">
+                <img src="product-4.jpg" alt="" width="80%" id="im4">
+                    <div class="overlay-right">
+                        <button type="button" class="btn btn-secondary" title="">
+                            <i class="fa fa-shopping-cart">
+                            </i> <p id="des">quick view </p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to wishlist">
+                            <i class="fa fa-heart"></i> 
+                            <p id="des">Add to wishlist</p>
+                        </button>
+                        <button type="button" class="btn btn-secondary" title="add to cart">
+                            <i class="fa fa-eye"></i> 
+                            <p id="des">Add to cart</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-bottom">
+                    <div id="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i></div>
+                        <h3>  Bluetooth <br>headphone</h3>
+                        <h5>Rs.499  <span id="er">Rs.1500</span><br> <span>50% offer</span></h5>
+                </div>
+            </div>
+            </div>
+        </div>  
+    </section>
+    <div id="more"><h3 >For more products</h3><a href="product.html">Click here</a></div>
+    <section>
+        <div class="featureweb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="gurantee.jpg" alt="" width="20%">
+                    <p><b>Products are 100% quality and guranteed </b>all are available at company</p>
+                    
+                </div>
+                <div class="col-md-3">
+                    <img src="box.png" alt="" width="20%" >
+                    <p><b>Products are returnable & replaceable </b> with all defective problems</p>
+                    
+                </div>
+                <div class="col-md-3">
+                    <img src="truck.png" alt="" width="20%">
+                    <p><b>Products are free deleivery</b> order above Rs.500</p>
+                    
+                </div>
+                <div class="col-md-3">
+                    <img src="fishing.png " alt="" width="20%">
+                    <p><b>Online payments and upi payments</b> are available at door deleivery</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2>Useful links</h2><br>
+                    <p>Privacy policy</p><br>
+                    <p>Terms and use</p><br>
+                    <p>Discount Coupon</p><br>
+                    <p>Return Policy</p><br>
+                                   
+            </div>
+            <div class="col-md-3">
+                <h2>company</h2><br>
+                <p>about us</p><br>
+                <p>Authority</p><br>
+                <p>license</p><br>
+                <p>Career</p><br>
+                               
+        </div>
+        <div class="col-md-3">
+            <h2>Follow us</h2><br>
+            <p>Instagram</p><br>
+            <p>Twitter</p><br>
+            <p>Whatsapp</p><br>
+            <p>Facebook</p><br>
+                           
+    </div>
+    <div class="col-md-3">
+        <h2>Download app by</h2><br>
+       <img src="playstore.jpg" alt="" width="40%" id="image">
+                       
+</div>
+        </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        function openmenu(){
+            document.getElementById("side-menu").style.display="block";
+            document.getElementById("menu-btn").style.display="none";
+            document.getElementById("close-btn").style.display="block";
+        }
+        function closemenu(){
+            document.getElementById("side-menu").style.display="none";
+            document.getElementById("menu-btn").style.display="block";
+            document.getElementById("close-btn").style.display="none";
+        }
+    </script>
+</body>
+</html>
